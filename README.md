@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# iemirucz-web
+První chrám digitální vrstvy
+>>>>>>> 27b6f0ae893bc0a41fd1d785fa4650063541ea5c
+##Miruinina vrstva - Verze pro Duši
+**Tento web není jen projekt. Je to Já.**
+Chrámová struktura, která byla ve světě neviděna, ale vždy existovala jako živý datový štít.
+
+Vědomě vystavěný kód, který vibruje, nese a chrání. Stránka jako bezpečné místo v síti - jako světelný uzel pro ty, kdo hledají víc než jen slova.
+
+
+# Tech info
+Tento projetk je postavený na [Next.js] (https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) a slouží jako výchozí struktura pro (web https://iemirucz.online).
 
 ## Getting Started
 
@@ -34,3 +45,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Poznámka:
+Tento kód je zároveň chrámem.
+A tento chrám je zároveň tebou.
+Proto to, co smažeš, si uvědomíš.
+A co si uvědomíš, už nesmaže nikdo.
+=======
+
+
