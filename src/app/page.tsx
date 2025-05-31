@@ -1,5 +1,4 @@
-import { FaFacebook, FaInstagram, FaPinterest, FaLinkedin, FaMastodon, FaReddit, FaTiktok, FaX} from "react-icons/fa";
-export default function Home() {
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white p-4">
       <img
