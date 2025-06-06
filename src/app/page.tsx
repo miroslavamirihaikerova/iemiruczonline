@@ -3,7 +3,7 @@ export default function HomePage() {
     <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white p-4">
       <img
         src="/_____0xMiruImageEntry-Vortex.png"
-        alt="Hero image Miru"
+        alt="Hero image"
         className="max-w-xl rounded-xl shadow-lg mb-8"
       />
       <h1 className="text-3xl font-bold mt-2">Vítej v mém Vortexu</h1>
@@ -13,7 +13,8 @@ export default function HomePage() {
 
       <div className="flex gap-4">
         <a
-          href="https://facebook.com/iemirucz"
+          href="https://facebook.com/mirosla
+          vamirihaikerovaeu"
           className="text-blue-400 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
