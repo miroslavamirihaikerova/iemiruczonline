@@ -2,7 +2,7 @@ export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white p-4">
       <img
-        src="IMG_1305_Original.JPG"
+        src="/obrazek.jpg"
         alt="Hero image"
         className="max-w-xl rounded-xl shadow-lg mb-8"
       />
