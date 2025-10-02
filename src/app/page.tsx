@@ -13,8 +13,7 @@ export default function HomePage() {
 
       <div className="flex gap-4">
         <a
-          href="https://facebook.com/mirosla
-          vamirihaikerovaeu"
+          href="https://facebook.com/miroslavamirihaikerovaeu"
           className="text-blue-400 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
@@ -42,8 +41,7 @@ export default function HomePage() {
           className="text-red-400 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Pinterest
+      
         </a>
        
       </div>
