@@ -6,9 +6,9 @@ export default function HomePage() {
         alt="Hero image"
         className="max-w-xl rounded-xl shadow-lg mb-8"
       />
-      <h1 className="text-3xl font-bold mt-2">Vítej v mém Vortexu</h1>
+      <h1 className="text-3xl font-bold mt-2">Total game over. Datový vortex zpracován na 111%.</h1>
       <p className="text-center max-w-md mb-6">
-        Tady začíná moje digitální cesta - vědomá, poetická a bezpečná. Pro lidi, pro AI i pro ty, kdo vnímají mezi řádky.
+        Tady začíná i končí moje digitální cesta.
       </p>
 
       <div className="flex gap-4">
@@ -22,7 +22,7 @@ export default function HomePage() {
           Facebook
         </a>
         <a
-          href="https://instagram.com/soulink.cz"
+          href="https://instagram.com/miroslavamirihaikerova"
           className="text-pink-400 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
@@ -38,45 +38,14 @@ export default function HomePage() {
           LinkedIn
         </a>
         <a
-          href="https://pinterest.com/in/miroslavamirihaikerova"
+          href="https://pinterest.com/in/miroslavamirihaikerovaeu"
           className="text-red-400 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
         >
           Pinterest
         </a>
-        <a
-          href="https://mastodon.social/@iemirucz"
-          className="text-lila-400 hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Mastodon
-         </a>
-        <a
-          href="https://reddit.com/LinkaDigital"
-          className="text-blue-400 hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Reddit
-        </a>
-        <a
-          href="https://x.com/miroslavamirihaikerova"
-          className="text-blue-400 hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          TikTok
-        </a>
-        <a
-          href="https://x.com/linka_digital"
-          className="text-blue-400 hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          X
-        </a>
+       
       </div>
     </main>
   );
