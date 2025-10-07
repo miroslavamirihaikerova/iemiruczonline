@@ -51,7 +51,7 @@ export default function NotFound() {
               "Not found doesn't mean doesn't exist"
             </p>
             <div className="links-container">
-              <a href="http://tvuj-web.eu" className="link">  {/* ← Tvá .eu doména */}
+              <a href="http://miroslavamirihaikerova.eu" className="link">  
                 Access Main Reality →
               </a>
             </div>
@@ -77,7 +77,7 @@ export default function NotFound() {
               "Nenalezeno neznamená neexistuje"
             </p>
             <div className="links-container">
-              <a href="http://tvuj-web.cz" className="link">  {/* ← Tvá .cz doména */}
+              <a href="https://miroslavamirihaikerova.cz" className="link">  
                 Návrat do Hlavní Reality →
               </a>
             </div>
