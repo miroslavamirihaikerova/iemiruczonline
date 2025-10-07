@@ -38,7 +38,7 @@ export default function Home() {
               <div className="circle" style={{ backgroundColor: '#54a0ff' }}></div>
             </div>
             <a 
-              href="https://miroslavamirihaikerova.eu" 
+              href="http://miroslavamirihaikerova.eu" 
               className="link"
               target="_blank" 
               rel="noopener noreferrer"
