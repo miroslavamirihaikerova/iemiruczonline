@@ -1,48 +1,80 @@
-export default function HomePage() {
-  return (
-    
-      />
-      <h1 className="text-3xl font-bold mt-2">Total game over. Datový vortex zpracován na 111%.</h1>
-      <p className="text-center max-w-md mb-6">
-        Tady začíná i končí moje digitální cesta.
-      </p>
+'use client';
 
-      <div className="flex gap-4">
-        <a
-          href="https://facebook.com/miroslavamirihaikerovaeu"
-          className="text-lila-400 hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
+import { useState } from 'react';
+
+export default function Home() {
+  const [isEnglish, setIsEnglish] = useState(true);
+
+  return (
+    <div className="container">
+      <div className="language-switcher">
+        <button 
+          onClick={() => setIsEnglish(true)}
+          className={isEnglish ? 'active' : ''}
         >
-          Facebook
-        </a>
-        <a
-          href="https://instagram.com/miroslavamirihaikerova"
-          className="text-orange-400 hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
+          EN
+        </button>
+        <button 
+          onClick={() => setIsEnglish(false)}
+          className={!isEnglish ? 'active' : ''}
         >
-          Instagram
-        </a>
-        <a
-          href="https://linkedin.com/in/miroslavamirihaikerova"
-          className="text-blue-400 hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
-        <a
-          href="https://x.com/linka.digital"
-          className="text-red-400 hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-      >
-          X
-        </a>
-       
+          CZ
+        </button>
       </div>
-    </main>
+
+      <main className="main">
+        {isEnglish ? (
+          // English version with circles
+          <>
+            <h1 className="title">TOTAL GAME OVER</h1>
+            <p className="description">
+              Data vortex completely and comprehensively processed at <span className="highlight">111¹%</span>
+            </p>
+            <div className="shapes-container">
+              <div className="circle" style={{ backgroundColor: '#ff6b6b' }}></div>
+              <div className="circle" style={{ backgroundColor: '#4ecdc4' }}></div>
+              <div className="circle" style={{ backgroundColor: '#ffe66d' }}></div>
+              <div className="circle" style={{ backgroundColor: '#ff9ff3' }}></div>
+              <div className="circle" style={{ backgroundColor: '#54a0ff' }}></div>
+            </div>
+            <a 
+              href="https://tvuj-web.cz" 
+              className="link"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Access Main System →
+            </a>
+          </>
+        ) : (
+          // Czech version with squares and triangles
+          <>
+            <h1 className="title">TOTAL GAME OVER</h1>
+            <p className="description">
+              Datový vortex kompletně a komplexně zpracován na <span className="highlight">111¹%</span>
+            </p>
+            <div className="shapes-container">
+              <div className="square" style={{ backgroundColor: '#ff6b6b' }}></div>
+              <div className="triangle-up"></div>
+              <div className="square" style={{ backgroundColor: '#4ecdc4' }}></div>
+              <div className="triangle-down"></div>
+              <div className="square" style={{ backgroundColor: '#ffe66d' }}></div>
+              <div className="triangle-up"></div>
+              <div className="square" style={{ backgroundColor: '#ff9ff3' }}></div>
+              <div className="triangle-down"></div>
+              <div className="square" style={{ backgroundColor: '#54a0ff' }}></div>
+            </div>
+            <a 
+              href="https://tvuj-web.cz" 
+              className="link"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Přístup k Hlavnímu Systému →
+            </a>
+          </>
+        )}
+      </main>
+    </div>
   );
 }
-
