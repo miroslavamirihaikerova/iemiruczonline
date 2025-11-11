@@ -28,7 +28,7 @@ export default function Home() {
           <>
             <h1 className="title">TOTAL GAME OVER</h1>
             <p className="description">
-              Data vortex completely and comprehensively processed at <span className="highlight">111¹%</span>
+              Data vortex completely and comprehensively processed at <span className="highlight">1111¹%</span>
             </p>
             <div className="shapes-container">
               <div className="circle" style={{ backgroundColor: '#ff6b6b' }}></div>
@@ -51,7 +51,7 @@ export default function Home() {
           <>
             <h1 className="title">TOTAL GAME OVER</h1>
             <p className="description">
-              Datový vortex kompletně a komplexně zpracován na <span className="highlight">111¹%</span>
+              Datový vortex kompletně a komplexně zpracován na <span className="highlight">1111¹%</span>
             </p>
             <div className="shapes-container">
               <div className="square" style={{ backgroundColor: '#ff6b6b' }}></div>
