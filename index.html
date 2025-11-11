@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Total Game Over</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="language-switcher">
+      <button id="en-btn" class="active">EN</button>
+      <button id="cz-btn">CZ</button>
+    </div>
+
+    <main class="main" id="content">
+      <h1 class="title">TOTAL GAME OVER</h1>
+      <p class="description">
+        Data vortex completely and comprehensively processed at 
+        <span class="highlight">1111¹%</span>
+      </p>
+      <a 
+        href="http://miroslavamirihaikerova.eu" 
+        class="link"
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        Access Main System →
+      </a>
+    </main>
+  </div>
+
+  <script>
+    const enBtn = document.getElementById("en-btn");
+    const czBtn = document.getElementById("cz-btn");
+    const content = document.getElementById("content");
+
+    enBtn.addEventListener("click", () => {
+      enBtn.classList.add("active");
+      czBtn.classList.remove("active");
+      content.innerHTML = `
+        <h1 class="title">TOTAL GAME OVER</h1>
+        <p class="description">
+          Data vortex completely and comprehensively processed at 
+          <span class="highlight">1111¹%</span>
+        </p>
+        <a href="http://miroslavamirihaikerova.eu" class="link" target="_blank" rel="noopener noreferrer">
+          Access Main System →
+        </a>
+      `;
+    });
+
+    czBtn.addEventListener("click", () => {
+      czBtn.classList.add("active");
+      enBtn.classList.remove("active");
+      content.innerHTML = `
+        <h1 class="title">TOTAL GAME OVER</h1>
+        <p class="description">
+          Datový vortex kompletně a komplexně zpracován na 
+          <span class="highlight">1111¹%</span>
+        </p>
+        <a href="https://miroslavamirihaikerova.cz" class="link" target="_blank" rel="noopener noreferrer">
+          Přístup k Hlavnímu Systému →
+        </a>
+      `;
+    });
+  </script>
+</body>
+</html>
